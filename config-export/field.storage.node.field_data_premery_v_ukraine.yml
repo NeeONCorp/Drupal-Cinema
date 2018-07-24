@@ -1,0 +1,20 @@
+uuid: 13d92543-b174-4351-bd6c-810e6160f91e
+langcode: ru
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_data_premery_v_ukraine
+field_name: field_data_premery_v_ukraine
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,26 @@
+uuid: bda73b46-1bb7-4c21-b13a-03bf3c9a7bf9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - cinema_nix
+_core:
+  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
+id: cinema_nix_account_menu
+theme: cinema_nix
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Меню учётной записи пользователя'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

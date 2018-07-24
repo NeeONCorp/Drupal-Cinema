@@ -1,0 +1,13 @@
+<?php
+/**
+ * @file
+ *
+ * Place your custom PHP code in this file.
+ */
+use Drupal\Core\Url;
+use Drupal\Core\Link;
+use Drupal\taxonomy\Entity\Term;
+use Drupal\file\Entity\File;
+use Drupal\image\Entity\ImageStyle;
+use Drupal\views\ViewExecutable;
+use Drupal\views\Plugin\views\cache\CachePluginBase;

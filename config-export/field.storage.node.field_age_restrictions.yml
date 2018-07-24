@@ -1,0 +1,20 @@
+uuid: b914366e-d34e-4888-a108-340e3162a1be
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_age_restrictions
+field_name: field_age_restrictions
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

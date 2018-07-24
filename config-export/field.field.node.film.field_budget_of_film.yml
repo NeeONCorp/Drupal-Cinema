@@ -1,0 +1,23 @@
+uuid: dc32195e-c641-4779-8aba-a2e7d9f516e1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_budget_of_film
+    - node.type.film
+id: node.film.field_budget_of_film
+field_name: field_budget_of_film
+entity_type: node
+bundle: film
+label: 'Бюджет фильма'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

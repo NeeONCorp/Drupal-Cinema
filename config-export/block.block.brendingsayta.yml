@@ -1,0 +1,23 @@
+uuid: 75d4d862-dd16-4a04-bb54-2ddaa24cdd05
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cinema_nix
+id: brendingsayta
+theme: cinema_nix
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендинг сайта'
+  provider: system
+  label_display: '0'
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

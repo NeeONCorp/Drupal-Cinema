@@ -1,0 +1,9 @@
+uuid: 182a6324-3bbb-41d5-9e30-c06aa90b97e4
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Страна издатель'
+vid: strana_izdatel
+description: 'Страна издатель для Фильма'
+hierarchy: 0
+weight: 0

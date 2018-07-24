@@ -1,0 +1,6 @@
+mycinema.hellopage:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\mycinema\Controller\Film::getPopularFilms'
+  requirements:
+    _permission: 'view content'

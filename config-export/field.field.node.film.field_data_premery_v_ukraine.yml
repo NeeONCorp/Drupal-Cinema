@@ -1,0 +1,21 @@
+uuid: 4850d660-b6bd-4b1b-933c-a987b1500c97
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_data_premery_v_ukraine
+    - node.type.film
+  module:
+    - datetime
+id: node.film.field_data_premery_v_ukraine
+field_name: field_data_premery_v_ukraine
+entity_type: node
+bundle: film
+label: 'Дата премьеры в Украине'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

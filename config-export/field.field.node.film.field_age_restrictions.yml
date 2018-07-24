@@ -1,0 +1,23 @@
+uuid: e9fbc411-26b3-4fd0-9dd8-db2eda0007df
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_age_restrictions
+    - node.type.film
+id: node.film.field_age_restrictions
+field_name: field_age_restrictions
+entity_type: node
+bundle: film
+label: 'Возрастные ограничения'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 21
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,14 @@
+uuid: f5b26931-2de1-4f51-be8e-d77830c2c6f8
+name: 'Cinema Nix'
+mail: neeon.corp@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: ru
+default_langcode: ru
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

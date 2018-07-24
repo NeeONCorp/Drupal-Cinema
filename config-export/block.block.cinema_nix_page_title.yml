@@ -1,0 +1,20 @@
+uuid: 2adb1ad3-6265-4c4f-9136-2e27bb6c0fc4
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - cinema_nix
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: cinema_nix_page_title
+theme: cinema_nix
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок страницы'
+  provider: core
+  label_display: '0'
+visibility: {  }

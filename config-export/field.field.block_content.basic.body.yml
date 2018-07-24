@@ -1,0 +1,24 @@
+uuid: 1dc30b19-0b87-44e4-b7d9-a73e8f6757d6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: R__6wc-rMfFMO8d7jcgqnqiA92j8spKhcc5MiqecrMc
+id: block_content.basic.body
+field_name: body
+entity_type: block_content
+bundle: basic
+label: Содержимое
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

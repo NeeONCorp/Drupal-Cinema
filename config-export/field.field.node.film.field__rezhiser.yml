@@ -1,0 +1,19 @@
+uuid: 6d9fee00-9dfe-49d9-9222-1669442a6abe
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field__rezhiser
+    - node.type.film
+id: node.film.field__rezhiser
+field_name: field__rezhiser
+entity_type: node
+bundle: film
+label: Режисер
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

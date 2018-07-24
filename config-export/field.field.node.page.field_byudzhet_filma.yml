@@ -1,0 +1,23 @@
+uuid: bfd00051-b96c-42d3-8c5d-0dbd3b16f838
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_byudzhet_filma
+    - node.type.page
+id: node.page.field_byudzhet_filma
+field_name: field_byudzhet_filma
+entity_type: node
+bundle: page
+label: 'Бюджет фильма'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

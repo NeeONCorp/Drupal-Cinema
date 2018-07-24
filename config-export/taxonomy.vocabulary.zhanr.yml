@@ -1,0 +1,9 @@
+uuid: a6ab46af-5b9f-420d-ad6a-a24bb41b0a4c
+langcode: ru
+status: true
+dependencies: {  }
+name: Жанр
+vid: zhanr
+description: ''
+hierarchy: 0
+weight: 0

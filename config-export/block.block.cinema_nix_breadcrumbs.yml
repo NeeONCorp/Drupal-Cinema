@@ -1,0 +1,22 @@
+uuid: 6a9fa79a-2d1f-4d8a-a095-921d844a7e33
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cinema_nix
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: cinema_nix_breadcrumbs
+theme: cinema_nix
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Строка навигации'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: c768997c-267b-4de2-b9a2-f8a33fa859b8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_field_durability_minutes
+    - node.type.film
+id: node.film.field_field_durability_minutes
+field_name: field_field_durability_minutes
+entity_type: node
+bundle: film
+label: 'Длительность фильма'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

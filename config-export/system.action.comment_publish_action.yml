@@ -1,0 +1,13 @@
+uuid: f7259c72-0375-4bd3-a655-7769cde5f2fa
+langcode: ru
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: C00dyL_W_5M0nFlgUB3lWUTUs96jn51Jw1MLHVEHZD0
+id: comment_publish_action
+label: 'Опубликовать комментарий'
+type: comment
+plugin: 'entity:publish_action:comment'
+configuration: {  }

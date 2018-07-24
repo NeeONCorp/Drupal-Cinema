@@ -1,0 +1,22 @@
+uuid: f98b627f-a9b3-48ce-828d-460c38b1cf52
+langcode: ru
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - cinema_nix
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: cinema_nix_help
+theme: cinema_nix
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Справка
+  provider: help
+  label_display: '0'
+visibility: {  }

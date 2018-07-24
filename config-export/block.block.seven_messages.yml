@@ -1,0 +1,22 @@
+uuid: 9bc73f61-5c21-417c-bbf0-4a47a3471d62
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: XJqWwLt1LDCnazcEN6QkJmCLjk4R0__-8s0OO9xeNjg
+id: seven_messages
+theme: seven
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Сообщения статуса'
+  provider: system
+  label_display: '0'
+visibility: {  }

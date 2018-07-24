@@ -1,0 +1,29 @@
+uuid: f54b40d4-6db4-4679-b6d1-d4673482d313
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_strana_izdatel
+    - node.type.film
+    - taxonomy.vocabulary.strana_izdatel
+id: node.film.field_strana_izdatel
+field_name: field_strana_izdatel
+entity_type: node
+bundle: film
+label: 'Страна издатель'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      strana_izdatel: strana_izdatel
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

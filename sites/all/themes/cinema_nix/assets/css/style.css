@@ -1,0 +1,44 @@
+header#custom-header {
+    background: #179cde;
+    padding: 8px 0px;
+}
+
+header#custom-header .site-branding__name {
+    font-weight: 700;
+}
+
+article.box-node {
+    box-shadow: 4px 3px 14px 3px #00000021;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    padding: 20px 25px;
+}
+
+.site-branding__text {
+    margin: 0;
+    padding: 0;
+}
+
+#menu_top {
+    border-bottom: 1px solid #eaeaea;
+}
+
+#menu_top .clearfix.menu {
+    padding: 0;
+}
+
+#menu_top .clearfix.menu a {
+    margin-top: 0px;
+}
+
+#menu_top .block .content {
+    margin-top: 0;
+}
+
+ul.menu a {
+    border: 0;
+}
+
+ul.menu a.is-active {
+    border-bottom: 2px solid #189cde !important;
+}

@@ -1,0 +1,12 @@
+uuid: 8008a7bb-efa5-4326-9824-e7b359f32e9b
+langcode: ru
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 71CSAr_LNPcgu6D6jI4INl1KATkahmeyUFBETAWya8g
+id: user.compact
+label: Компактный
+targetEntityType: user
+cache: true

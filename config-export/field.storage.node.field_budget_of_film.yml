@@ -1,0 +1,18 @@
+uuid: 84562dfa-1aeb-4c9a-b935-ddf4db1bec39
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_budget_of_film
+field_name: field_budget_of_film
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
